@@ -13,7 +13,20 @@ Ce projet est une application web interactive développée avec **Streamlit** po
 
 ## 🛠️ Installation
 
-1. Clonez ce dépôt :
+1. Clonez ce dépôt via ligne de commande ou en utilisant Github Desktop :
 
    ```bash
    git clone https://github.com/Sahm269/Mlops
+   
+2. Ensuite placez vous sur le dossier la racine du dossier et tapez la commande suivante:
+   
+    ```bash
+    docker compose up --build
+   
+   
+## 📦 API
+L'application envoie une requête POST à une API pour obtenir la prédiction. Assurez-vous que l'API est en cours d'exécution à l'adresse suivante :
+
+   ```bash
+   http://server:8000/predict
+   
