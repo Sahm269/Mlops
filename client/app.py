@@ -5,7 +5,11 @@ import requests
 import pandas as pd
 
 # 🌟 Mise en page
-st.set_page_config(page_title="🌸My beautiful App Iris", layout="centered")
+st.set_page_config(
+    page_title="My beautiful App Iris",
+    page_icon="🌸", 
+    layout="centered"
+)
 st.title("🌸 Classificateur de Fleurs Iris")
 st.markdown("Entrez les caractéristiques de votre fleur et découvrez son espèce !")
 
