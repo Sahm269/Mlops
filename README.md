@@ -2,7 +2,7 @@
 
 Il s'agit d'un mini projet Docker avec docker compose avec les données IRIS 
 
-Ce projet est une application web interactive développée avec **Streamlit** pour classifier les fleurs **Iris** en fonction de leurs caractéristiques. L'application permet aux utilisateurs de tester des exemples prédéfinis ou d'entrer leurs propres paramètres pour prédire l'espèce de la fleur.
+Ce projet est une application web interactive développée avec **Streamlit** et **FastApi** pour classifier les fleurs **Iris** en fonction de leurs caractéristiques. L'application permet aux utilisateurs de tester des exemples prédéfinis ou d'entrer leurs propres paramètres pour prédire l'espèce de la fleur.
 
 ## 🚀 Fonctionnalités
 
@@ -28,9 +28,4 @@ Ce projet est une application web interactive développée avec **Streamlit** po
    http://localhost:8501/
    
    
-## 📦 API
-L'application envoie une requête POST à une API pour obtenir la prédiction. Assurez-vous que l'API est en cours d'exécution à l'adresse suivante :
 
-   ```bash
-   http://server:8000/predict
-   
