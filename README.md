@@ -22,6 +22,10 @@ Ce projet est une application web interactive développée avec **Streamlit** po
    
     ```bash
     docker compose up --build
+    
+3. L'application sera accessible via ce lien
+   ```bash
+   http://localhost:8501/
    
    
 ## 📦 API
